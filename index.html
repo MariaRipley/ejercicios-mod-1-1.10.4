@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ejercicio | Instagram Form</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="top">
+        <h1>Instagram</h1>
+        <p>Regístrate para ver fotos y vídeos de tus amigos</p>
+        <a href="#">Inicia sesión con Facebook</a>
+      </div>
+      <div class="top-end">
+      <hr />
+      <span> o </span>
+      <hr />
+      
+      <form action="" method="post">
+        <label for="telOrMail"></label>
+        <input type="text"
+               name="telOrMail"
+               id="telOrMail"
+               placeholder="Número de móvil o correo electrónico" />
+        <label for="name"></label>
+        <input type="text"
+               name="name"
+               id="name"
+               placeholder="Nombre completo" />
+        <label for="nickname"></label>
+        <input type="text"
+               name="nickname"
+               id="nickname"
+               placeholder="Nombre de usuario" />
+        <label for="password"></label>
+        <input type="password"
+               name="password"
+               id="password"
+               placeholder="Contraseña" />
+        <input type="hidden"
+               name="browser"
+               id="browser"
+               value="Navegador">
+        <label for="high"></label>
+        <input type="number"
+        name="high"
+        id="high"
+        value="150"
+        min="50"
+        max="250">
+        <label for="textArea"></label>
+        <textarea name="textArea" 
+                  id="textArea" 
+                  cols="30" 
+                  rows="10">
+                </textarea>
+        <label for="terms">
+        <input type="checkbox"
+               name="terms"
+               id="termns">
+            Acepto los términos y condiciones.</label>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          alias. Repudiandae repellat ducimus corrupti perferendis!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem amet cumque, unde, quisquam similique expedita sapiente
+          accusantium atque velit nemo perferendis consequuntur, odit delectus
+          ab.
+        </p>
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
